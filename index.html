@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>TODO</title>
+  
+</head>
+<body>
+<div class="js-clock">
+    <h1 class="js-title">
+        00:00
+    </h1>
+</div>
+<form class="js-form form">
+    <input autofocus type="text" placeholder="Type your name here" title="name"/>
+</form>
+<div class="js-greeting greetings"></div>
+
+<div class="toDoListWrap">
+    <div class="full-width">
+        <form class="js-toDoForm">
+            <input type="text" placeholder="Write a to do..." title="task" required/>
+            <button class="btn js-submit">
+                &#128397;
+            </button>
+        </form>
+    </div>
+    <div class="pendingWrap">
+        <h2>Pending</h2>
+        <ul class="js-toDoList"></ul>
+    </div>
+    <div class="finishedWrap">
+        <h2>Finished</h2>
+        <ul class="js-finishList"></ul>
+    </div>
+</div>
+
+<div class="js-weather"></div>
+
+<script src="src/clock.js"></script>
+<script src="src/greeting.js"></script>
+<script src="src/todo.js"></script>
+<script src="src/bg.js"></script>
+<script src="src/weather.js"></script>
+</body>
+</html>
